@@ -249,3 +249,19 @@ exports.exec = (command, args, options = {}) => {
 
   return result
 }
+
+/**
+ * Filter object based on allowed keys
+ * @param {Object} obj
+ * @param {Array} allowedKeys
+ */
+exports.filterKeys = (obj, allowedKeys) => {
+  return Object.keys(obj)
+    .filter(key => allowedKeys.includes(key))
+    .reduce((newObj, key) => {
+      return {
+        ...newObj,
+        [key]: obj[key]
+      };
+    }, {});
+}
