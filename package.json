@@ -65,7 +65,7 @@
     "babel-loader": "^8.1.0",
     "browserify-zlib": "~0.2.0",
     "bundlesize": "~0.18.0",
-    "chalk": "^3.0.0",
+    "chalk": "^4.0.0",
     "codecov": "^3.6.5",
     "conventional-changelog": "^3.1.18",
     "conventional-github-releaser": "^3.1.3",
