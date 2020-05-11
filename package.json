@@ -126,7 +126,7 @@
     "stats-webpack-plugin": "~0.7.0",
     "stream-array": "^1.1.2",
     "stream-http": "^3.1.0",
-    "terser-webpack-plugin": "^2.3.5",
+    "terser-webpack-plugin": "^3.0.1",
     "through": "^2.3.8",
     "transform-loader": "~0.2.4",
     "ts-node": "^8.8.1",
