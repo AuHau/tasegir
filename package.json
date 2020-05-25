@@ -57,7 +57,7 @@
     "@commitlint/read": "^8.3.4",
     "@commitlint/travis-cli": "^8.3.5",
     "@hapi/joi": "^17.1.1",
-    "@types/node": "^12.12.31",
+    "@types/node": "^14.0.5",
     "@typescript-eslint/eslint-plugin": "^2.25.0",
     "@typescript-eslint/parser": "^2.25.0",
     "arrify": "^2.0.1",
