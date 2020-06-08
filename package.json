@@ -73,7 +73,7 @@
     "dependency-check": "^4.1.0",
     "detect-node": "^2.0.4",
     "detective-typescript": "^5.7.0",
-    "documentation": "^12.1.2",
+    "documentation": "^13.0.1",
     "electron": "^8.2.0",
     "electron-mocha": "^8.2.1",
     "es6-promisify": "^6.1.0",
