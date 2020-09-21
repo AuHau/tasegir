@@ -73,7 +73,7 @@
     "detect-node": "^2.0.4",
     "detective-typescript": "^5.7.0",
     "documentation": "^12.1.2",
-    "electron": "^6.0.9",
+    "electron": "^10.1.2",
     "electron-mocha": "^8.1.2",
     "es6-promisify": "^6.0.2",
     "eslint": "^6.8.0",
