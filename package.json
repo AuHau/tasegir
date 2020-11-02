@@ -137,7 +137,7 @@
     "webpack-cli": "^3.3.8",
     "webpack-merge": "^4.2.2",
     "yargs": "^14.0.0",
-    "yargs-parser": "^14.0.0"
+    "yargs-parser": "^20.2.3"
   },
   "devDependencies": {
     "@types/mocha": "^5.2.7",
