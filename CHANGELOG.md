@@ -1,3 +1,12 @@
+## [1.9.1](https://github.com/auhau/tasegir/compare/v1.9.0...v1.9.1) (2021-01-12)
+
+
+### Bug Fixes
+
+* deps check error ([0b187a6](https://github.com/auhau/tasegir/commit/0b187a641efdf105508de096a39362aa5e54c5bf))
+
+
+
 # [1.9.0](https://github.com/auhau/tasegir/compare/v1.8.0...v1.9.0) (2020-12-23)
 
 
