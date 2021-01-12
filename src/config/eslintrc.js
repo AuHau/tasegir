@@ -54,7 +54,13 @@ module.exports = {
     'no-useless-constructor': 'off',
     'no-dupe-class-members': 'off',
     'no-unused-expressions': 'off',
-    '@typescript-eslint/ban-ts-ignore': 'warn',
+    '@typescript-eslint/ban-ts-comment': ['error', {
+      'ts-expect-error': 'allow-with-description',
+      'ts-ignore': 'allow-with-description',
+      'ts-nocheck': 'allow-with-description',
+      'ts-check': 'allow-with-description',
+      minimumDescriptionLength: 3,
+    }],
     '@typescript-eslint/no-useless-constructor': 'error',
     '@typescript-eslint/no-unused-expressions': 'error',
     '@typescript-eslint/member-delimiter-style': ['error', {

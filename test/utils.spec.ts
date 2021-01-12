@@ -17,8 +17,7 @@ describe('utils', () => {
 
     expect(utils.getPathToPkg()).to.eql(path.normalize('hello/package.json'))
     // TODO: Proper TS mocking
-    // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
-    // @ts-ignore
+    // @ts-ignore: Currently ignored
     process.cwd.restore()
   })
 
