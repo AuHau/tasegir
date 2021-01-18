@@ -142,7 +142,7 @@
     "chai": "^4.2.0",
     "cross-env": "^6.0.0",
     "mock-require": "^3.0.2",
-    "sinon": "^7.5.0"
+    "sinon": "^9.2.3"
   },
   "peerDependencies": {
     "electron": "^6.0.9"
