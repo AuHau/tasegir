@@ -34,7 +34,8 @@ module.exports = (argv) => {
           TASEGIR_RUNNER: argv.webworker ? 'webworker' : 'browser'
         },
         localDir: path.join(__dirname, '../..'),
-        stdio: 'inherit'
+        stdio: 'inherit',
+        preferLocal: true
       })
     })
     .then(() => hook('browser', 'post')(argv.userConfig))

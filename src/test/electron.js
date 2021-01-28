@@ -35,6 +35,7 @@ module.exports = (argv) => {
         ...forwardOptions
       ], {
         localDir: path.join(__dirname, '../..'),
+        preferLocal: true,
         stdio: 'inherit',
         env: {
           TASEGIR_RUNNER: argv.renderer ? 'electron-renderer' : 'electron-main',
