@@ -1,3 +1,13 @@
+<a name="1.9.3"></a>
+## [1.9.3](https://github.com/auhau/tasegir/compare/v1.9.2...v1.9.3) (2021-01-28)
+
+
+### Bug Fixes
+
+* local binaries for testing ([bf98e76](https://github.com/auhau/tasegir/commit/bf98e76))
+
+
+
 <a name="1.9.2"></a>
 ## [1.9.2](https://github.com/auhau/tasegir/compare/v1.9.1...v1.9.2) (2021-01-12)
 
