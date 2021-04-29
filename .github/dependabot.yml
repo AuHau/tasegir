@@ -1,0 +1,35 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: karma
+    versions:
+    - 6.0.1
+    - 6.0.3
+    - 6.1.1
+    - 6.3.1
+  - dependency-name: simple-git
+    versions:
+    - 2.31.0
+    - 2.34.2
+    - 2.35.2
+    - 2.36.2
+  - dependency-name: yargs-parser
+    versions:
+    - 20.2.4
+    - 20.2.5
+    - 20.2.6
+  - dependency-name: sinon
+    versions:
+    - 9.2.4
+  - dependency-name: read-pkg-up
+    versions:
+    - 7.0.1
+  - dependency-name: chalk
+    versions:
+    - 4.1.0
